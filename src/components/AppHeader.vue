@@ -23,7 +23,7 @@ export default {
                 <div class="header_left position-relative">
                     <img height="20" class="logo" src="../assets/img/logotype.png" alt="logo">
 
-                    <div class="line d-flex position-absolute top-50 end-0 translate-middle-y">
+                    <div class="line d-flex position-absolute top-50 end-0 translate-middle-y gap-2">
                         <hr>
                         <p class="text-white text-uppercase">always the best way you need it</p>
                     </div>
@@ -94,7 +94,7 @@ header {
       }
 
       hr {
-    
+        
         width: 30px;
         color: $bc_success;
       }
