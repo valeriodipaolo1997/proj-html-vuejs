@@ -1,5 +1,7 @@
 <script>
-import AppConsulting from './AppConsulting.vue';
+import AppConsulting from './AppConsulting.vue'
+import AppStrategy from './AppStrategy.vue';
+
 export default {
     name: 'AppMain',
 
@@ -10,7 +12,8 @@ export default {
         }
     },
     components: {
-        AppConsulting
+        AppConsulting,
+        AppStrategy
     }
 }
 
@@ -19,7 +22,11 @@ export default {
 <template>
     <main>
         <AppConsulting />
+        <AppStrategy />
     </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+
+</style>

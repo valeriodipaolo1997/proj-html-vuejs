@@ -25,7 +25,7 @@ export default {
 
                     <div class="line d-flex position-absolute top-50 end-0 translate-middle-y gap-2">
                         <hr>
-                        <p class="text-white text-uppercase">always the best way you need it</p>
+                        <p class=" text-uppercase">always the best way you need it</p>
                     </div>
                     <div>
                         <h1 class="text-white position-absolute top-50 start-100 translate-middle"> THE BEST BUSINESS CONSULTING</h1>
@@ -34,6 +34,7 @@ export default {
                     <div class=" d-flex position-absolute bottom-0 start-50 translate-middle-x">
                         <button class="btn rounded-0 "> READ MORE</button>
                         <i class="ps-4 pt-2">
+                            
                             <img height="40" class="logo_play" src="../assets/img/play-button.png" alt="">
                         </i>
                     </div>
@@ -118,8 +119,10 @@ header {
         background-color: $bc_success;
     }
 
-    .logo_play {
-        color: $bc_success;
+    
+
+    p {
+        color: $bc_textlight;
     }
       
     }
