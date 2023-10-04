@@ -1,7 +1,8 @@
 <script>
 import AppConsulting from './AppConsulting.vue'
 import AppStrategy from './AppStrategy.vue'
-import AppHelp from './AppHelp.vue';
+import AppHelp from './AppHelp.vue'
+import AppNews from './AppNews.vue';
 
 export default {
     name: 'AppMain',
@@ -15,7 +16,8 @@ export default {
     components: {
         AppConsulting,
         AppStrategy,
-        AppHelp
+        AppHelp,
+        AppNews
     }
 }
 
@@ -26,6 +28,7 @@ export default {
         <AppConsulting />
         <AppStrategy />
         <AppHelp />
+        <AppNews />
     </main>
 </template>
 
