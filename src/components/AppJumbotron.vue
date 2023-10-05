@@ -35,7 +35,7 @@ export default {
 #jumbo {
     
     margin-top: 15rem;
-    margin-bottom: 4rem;
+    
    
 
 }
