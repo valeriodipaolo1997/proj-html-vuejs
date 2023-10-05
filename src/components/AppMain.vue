@@ -33,6 +33,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+@use '../assets/scss/partials/variables' as *;
+main {
+    background-color: $bc_dark;
+}
 
 </style>
