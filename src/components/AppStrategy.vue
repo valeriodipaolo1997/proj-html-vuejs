@@ -22,7 +22,7 @@ export default {
 
         <div class="about_us container d-flex flex-column">
             <div class="d-flex">
-                <hr>
+                <i class="fa-sharp fa-regular fa-window-minimize"></i>
                 <p class="about">ABOUT US</p>
             </div>
 
@@ -68,13 +68,14 @@ export default {
 }
 
 .about {
-    color: $bc_white;
+    color: $bc_textoff-white ;
 }
 
 h1 {
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 3.3rem;
+    color: white;
 
 }
 
@@ -111,5 +112,10 @@ p {
     font-size: 1rem;
 }
 
-
+.fa-sharp {
+        font-size: 2.3rem;
+        color: $bc_success;
+        margin-top: -1.2rem;
+        padding-right: 1.5rem;
+      }
 </style>

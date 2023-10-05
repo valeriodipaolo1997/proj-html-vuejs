@@ -14,9 +14,13 @@ export default {
 
 <template>
     <div class="container">
-        <h6>BLOG</h6>
+        <div class="d-flex">
+            <i class="fa-sharp fa-regular fa-window-minimize"></i>
+            <h6>BLOG</h6>
+        </div>
+        
         <div class="d-flex justify-content-between pb-5">
-            <h1>THE RECENT NEWS YOU MUST READ IT</h1>
+            <h1 class="text-white">THE RECENT NEWS YOU MUST READ IT</h1>
             <button class="btn rounded-0"><span>VIEW ALL</span></button>
         </div>
 
@@ -98,5 +102,18 @@ h4 {
 .my_text {
     color: $bc_warning;
 }
+
+h6 {
+    color: $bc_textoff-white;
+    padding-top: 0.2rem;
+}
+
+.fa-sharp {
+        font-size: 2.3rem;
+        color: $bc_success;
+        margin-top: -1.2rem;
+        padding-right: 1.5rem;
+        
+      }
 </style>
 
