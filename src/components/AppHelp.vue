@@ -16,14 +16,15 @@ export default {
 <template>
     <div class="help_clients container">
         <div class="d-flex">
-                <i class="fa-sharp fa-regular fa-window-minimize"></i>
-                <p class="project">PROJECT</p>
-            </div>
+            <i class="fa-sharp fa-regular fa-window-minimize"></i>
+            <p class="project">PROJECT</p>
+        </div>
         <div class="d-flex justify-content-between">
             <h1 class="pb-4 text-white">OUR EXPERT TRUSTED CONSULTANTS <br> HELP CLIENTS</h1>
             <div class="pt-2">
                 <button class="btn btn-primary rounded-0 me-2"><i class="fa-solid fa-arrow-right-long"></i></button>
-                <button class="btn btn-primary rounded-0"><i class="fa-solid fa-arrow-right-long fa-rotate-180"></i></button>
+                <button class="btn btn-primary rounded-0"><i
+                        class="fa-solid fa-arrow-right-long fa-rotate-180"></i></button>
             </div>
 
         </div>
@@ -33,7 +34,10 @@ export default {
                 <img src="../assets/img/DRY-1-790x592.jpg" alt="">
             </div>
             <div class="col">
-                <img src="../assets/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="">
+
+                <img class="hover_img" src="../assets/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="">
+
+
             </div>
             <div class="col">
                 <img src="../assets/img/z1el4c4p-790x592.jpg" alt="">
@@ -51,10 +55,10 @@ export default {
                     <p>
                         When, while lovely valley teems whit vapour around meand eridian sun strikes the upper impenetrable
                         foliage of my trees, and but a When, while lovely valley teems whit vapor around meand eridian sun
-                        strikes. 
+                        strikes.
                     </p>
-                  <h4 class="pt-4">Vera Duncan</h4>
-                  <p>Amazon Inc.</p>
+                    <h4 class="pt-4">Vera Duncan</h4>
+                    <p>Amazon Inc.</p>
                 </div>
                 <div class="col px-5">
                     <p>
@@ -69,7 +73,7 @@ export default {
                     <p>
                         When, while lovely valley teems whit vapour around meand eridian sun strikes the upper impenetrable
                         foliage of my trees, and but a When, while lovely valley teems whit vapor around meand eridian sun
-                        strikes. 
+                        strikes.
                     </p>
                     <h4 class="pt-4">Vera Duncan</h4>
                     <p>Amazon Inc.</p>
@@ -86,11 +90,12 @@ export default {
 
 .my_container {
     background-color: white;
-    
+
 }
+
 img {
 
-max-width: 100%;
+    max-width: 100%;
 }
 
 .help_clients {
@@ -108,16 +113,16 @@ p {
 }
 
 .fa-sharp {
-        font-size: 2.3rem;
-        color: $bc_success;
-        margin-top: -1.2rem;
-        padding-right: 1.5rem;
-      }
+    font-size: 2.3rem;
+    color: $bc_success;
+    margin-top: -1.2rem;
+    padding-right: 1.5rem;
+}
 
 .project {
     color: $bc_textoff-white;
     font-size: 1rem;
-}      
+}
 
 
 .btn {
@@ -130,5 +135,12 @@ p {
 h4 {
     color: $bc_dark;
 }
+
+
+.first_img {
+    display: block;
+}
+
+
 
 </style>

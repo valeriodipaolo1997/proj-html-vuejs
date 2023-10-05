@@ -115,6 +115,14 @@ header {
         margin-bottom: 15rem;
         padding: 0.6rem 2rem;
         background-color: $bc_success;
+        
+    }
+    .btn:hover {
+        background-color: $bc_warning;
+        span {
+            color: white;
+        }
+        
     }
     
     .fa-circle-play {
@@ -146,4 +154,6 @@ span {
     font-size: 0.9rem;
     color: $bc_textdark;
 }
+
+
 </style>

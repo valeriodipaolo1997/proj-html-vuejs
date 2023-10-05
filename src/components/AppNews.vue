@@ -108,6 +108,14 @@ h6 {
     padding-top: 0.2rem;
 }
 
+.btn:hover {
+        background-color: $bc_warning;
+        span {
+            color: white;
+        }
+        
+    }      
+
 .fa-sharp {
         font-size: 2.3rem;
         color: $bc_success;
@@ -115,5 +123,6 @@ h6 {
         padding-right: 1.5rem;
         
       }
+       
 </style>
 
