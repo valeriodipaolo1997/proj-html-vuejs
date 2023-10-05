@@ -2,7 +2,8 @@
 import AppConsulting from './AppConsulting.vue'
 import AppStrategy from './AppStrategy.vue'
 import AppHelp from './AppHelp.vue'
-import AppNews from './AppNews.vue';
+import AppNews from './AppNews.vue'
+import AppJumbotron from './AppJumbotron.vue';
 
 export default {
     name: 'AppMain',
@@ -17,7 +18,8 @@ export default {
         AppConsulting,
         AppStrategy,
         AppHelp,
-        AppNews
+        AppNews,
+        AppJumbotron
     }
 }
 
@@ -29,6 +31,7 @@ export default {
         <AppStrategy />
         <AppHelp />
         <AppNews />
+        <AppJumbotron />
     </main>
 </template>
 
