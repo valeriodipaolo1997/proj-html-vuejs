@@ -24,7 +24,7 @@ export default {
                     <img height="20" class="logo" src="../assets/img/logotype.png" alt="logo">
 
                     <div class="line d-flex position-absolute top-50 end-0 translate-middle-y gap-2">
-                        <hr>
+                        <i class="fa-sharp fa-regular fa-window-minimize"></i>
                         <p class=" text-uppercase">always the best way you need it</p>
                     </div>
                     <div>
@@ -32,11 +32,8 @@ export default {
                     </div>
 
                     <div class=" d-flex position-absolute bottom-0 start-50 translate-middle-x">
-                        <button class="btn rounded-0 "> READ MORE</button>
-                        <i class="ps-4 pt-2">
-                            
-                            <img height="40" class="logo_play" src="../assets/img/play-button.png" alt="">
-                        </i>
+                        <button class="btn rounded-0 "> <span>READ MORE</span></button>
+                        <i class="fa-regular fa-circle-play ps-3 pt-2"></i>
                     </div>
                 </div>
 
@@ -94,15 +91,16 @@ header {
         padding-left: 15rem;
       }
 
-      hr {
-        
-        width: 30px;
+      .fa-sharp {
+        font-size: 2.3rem;
         color: $bc_success;
+        margin-top: -1.2rem;
+        padding-right: 1.5rem;
       }
 
       h1 {
         padding-right: 14rem;
-        font-size: 5rem;
+        font-size: 5.4rem;
         line-height: 5rem;
       }
      
@@ -115,10 +113,15 @@ header {
     .btn {
         margin-left: 5rem;
         margin-bottom: 15rem;
-        padding: 0.5rem 2rem;
+        padding: 0.6rem 2rem;
         background-color: $bc_success;
     }
-
+    
+    .fa-circle-play {
+        color: white;
+        font-size: 3rem;
+        
+    }
     
 
     p {
@@ -137,5 +140,10 @@ header {
     }
 
 
+}
+
+span {
+    font-size: 0.9rem;
+    color: $bc_textdark;
 }
 </style>
